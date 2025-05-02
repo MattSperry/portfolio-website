@@ -5,13 +5,13 @@ const Projects: React.FC = () => {
     {
       title: 'Space Launch Tracker',
       description: 'I am passionate about space technologies and wanted to create a project that tracks upcoming space launches. This project demonstrates capabilities in API usage, data aggregation, frontend presentation, and website deployment.',
-      link: '#', // Dummy link as requested
+      link: '#', // Dummy link
       tags: ['React', 'Data Visualization', 'API Integration', 'HTML', 'CSS', 'AI']
     },
     {
       title: 'Sifty Decision App (Prototype)',
-      description: 'As Founder/CEO of Swipe LLC, I led the creation of a basic website prototype for the Sifty decision app using a Figma framework.',
-      link: '#', // No live link mentioned in resume
+      description: 'As Founder/CEO of Swipe LLC, I led the creation of a prototype for the Sifty decision app using a Figma framework.',
+      link: 'https://www.youtube.com/watch?v=9J0sQOJhNd8', 
       tags: ['HTML', 'CSS', 'JavaScript', 'Figma', 'Startup']
     }
   ];
