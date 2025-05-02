@@ -2,8 +2,8 @@ import React from 'react';
 
 const Skills: React.FC = () => {
   const skills = {
-    frameworks: ['JavaScript (Node.js, React.js)', 'Python (pandas)', 'Swift', 'HTML/CSS', 'VBA', 'ASP.NET'],
-    tools: ['Salesforce (Admin, Apex)', 'AWS (Lambda)', 'MySQL', 'MuleSoft', 'Excel (Advanced)'],
+    frameworks: ['JavaScript (Node.js, React.js)', 'Python (Django, pandas)', 'Swift', 'HTML/CSS', 'VBA', 'ASP.NET'],
+    tools: ['Salesforce (Admin, Apex)', 'AWS (Lambda)', 'MySQL', 'PosgreSQL', 'MuleSoft', 'Excel (Advanced)'],
     languages: ['English', 'Portuguese'],
     certifications: [
       'Salesforce Administrator',
@@ -25,8 +25,13 @@ const Skills: React.FC = () => {
           <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
             <h3 className="text-xl font-semibold mb-4 text-gray-800 dark:text-gray-200">Frameworks & Languages</h3>
             <ul className="list-disc list-inside space-y-2 text-gray-700 dark:text-gray-300">
-              {skills.frameworks.map((skill, index) => <li key={index}>{skill}</li>)}
-              {skills.languages.map((lang, index) => <li key={`lang-${index}`}>{lang} (Language)</li>)}
+              {skills.frameworks.map((skill, index) => (
+                <li key={index}>{skill}</li>
+              ))}
+              <div className="border-t border-gray-500 dark:border-gray-400 my-2"></div>
+              {skills.languages.map((lang, index) => (
+                <li key={`lang-${index}`}>{lang} (Language)</li>
+              ))}
             </ul>
           </div>
           <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">

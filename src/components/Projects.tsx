@@ -4,27 +4,15 @@ const Projects: React.FC = () => {
   const projects = [
     {
       title: 'Space Launch Tracker',
-      description: 'A conceptual project focused on tracking upcoming and past space launches. This project demonstrates capabilities in data aggregation and frontend presentation.',
+      description: 'I am passionate about space technologies and wanted to create a project that tracks upcoming space launches. This project demonstrates capabilities in API usage, data aggregation, frontend presentation, and website deployment.',
       link: '#', // Dummy link as requested
-      tags: ['React', 'Data Visualization', 'API Integration (Conceptual)']
+      tags: ['React', 'Data Visualization', 'API Integration', 'HTML', 'CSS', 'AI']
     },
     {
       title: 'Sifty Decision App (Prototype)',
-      description: 'As Founder/CEO of Swipe LLC, I led the creation of a basic website prototype for the Sifty decision app using HTML, CSS, and JavaScript, alongside developing a Figma framework.',
+      description: 'As Founder/CEO of Swipe LLC, I led the creation of a basic website prototype for the Sifty decision app using a Figma framework.',
       link: '#', // No live link mentioned in resume
       tags: ['HTML', 'CSS', 'JavaScript', 'Figma', 'Startup']
-    },
-    {
-      title: 'AI Model Integration (SOLVD.cloud)',
-      description: 'Integrated in-house AI code with AWS Lambda for cloud-based frontend interaction and developed Python scripts to adapt AI models for specific client needs.',
-      link: '#', // Internal project
-      tags: ['Python', 'AI', 'AWS Lambda', 'DevOps']
-    },
-    {
-      title: 'Salesforce Solutions (SOLVD.cloud)',
-      description: 'Developed numerous custom Salesforce solutions using Apex and Flow automations, managing projects from conception to delivery for various clients.',
-      link: '#', // Client work
-      tags: ['Salesforce', 'Apex', 'Flow', 'Project Management']
     }
   ];
 
