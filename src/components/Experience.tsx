@@ -3,17 +3,6 @@ import React from 'react';
 const Experience: React.FC = () => {
   const experiences = [
     {
-      title: 'DevOps Engineer',
-      company: 'SOLVD.cloud',
-      location: 'Lehi, UT',
-      dates: 'Feb 2024 – Aug 2024',
-      description: [
-        'Integrated in-house AI code with AWS Lambda to effectively leverage cloud services for front-end interaction.',
-        'Developed Python scripts to modify and adapt AI models for specific needs ensuring seamless performance.',
-        'Migrated 100+ TB of Slack data between incompatible orgs with Python scripts to edit JSON for compatibility.'
-      ]
-    },
-    {
       title: 'Salesforce Consultant',
       company: 'SOLVD.cloud',
       location: 'Lehi, UT',
@@ -22,6 +11,17 @@ const Experience: React.FC = () => {
         'Developed efficient Apex code and flow automations to improve overall Salesforce solution efficiency.',
         'Led client meetings to tailor and implement the most effective solutions for their business problems.',
         'Managed projects, timelines, budgets, and team performance to deliver top-tier Salesforce products to clients.'
+      ]
+    },
+    {
+      title: 'DevOps Engineer',
+      company: 'SOLVD.cloud',
+      location: 'Lehi, UT',
+      dates: 'Feb 2024 – Aug 2024',
+      description: [
+        'Integrated in-house AI code with AWS Lambda to effectively leverage cloud services for front-end interaction.',
+        'Developed Python scripts to modify and adapt AI models for specific needs ensuring seamless performance.',
+        'Migrated 100+ TB of Slack data between incompatible orgs with Python scripts to edit JSON for compatibility.'
       ]
     },
     {
