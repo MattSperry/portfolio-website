@@ -1,5 +1,5 @@
 import React from 'react';
-import { Linkedin, Mail } from 'lucide-react'; // Assuming lucide-react is installed via template
+import { Mail } from 'lucide-react'; 
 
 const Contact: React.FC = () => {
   const email = 'matthewjoelsperry@gmail.com';
