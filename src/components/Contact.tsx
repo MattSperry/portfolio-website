@@ -26,7 +26,11 @@ const Contact: React.FC = () => {
             rel="noopener noreferrer"
             className="flex items-center text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition duration-300"
           >
-            <Linkedin className="w-6 h-6 mr-2" />
+                        <img 
+              src="../../public/LI-In-Bug.png" 
+              alt="LinkedIn Logo" 
+              className="w-6 h-6 mr-2" 
+            />
             <span>LinkedIn</span>
           </a>
         </div>

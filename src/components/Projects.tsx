@@ -3,9 +3,9 @@ import React from 'react';
 const Projects: React.FC = () => {
   const projects = [
     {
-      title: 'Space Launch Tracker',
+      title: 'Space Launch Tracker (Website)',
       description: 'I am passionate about space technologies and wanted to create a project that tracks upcoming rocket launches. This project demonstrates capabilities in API usage, data aggregation, frontend presentation, and website deployment.',
-      link: '#', // Dummy link
+      link: 'https://space-launch-tracker-c8wj.vercel.app/', 
       tags: ['React', 'Data Visualization', 'API Integration', 'HTML', 'CSS', 'AI']
     },
     {
