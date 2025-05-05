@@ -3,7 +3,7 @@ import { Mail } from 'lucide-react';
 
 const Contact: React.FC = () => {
   const email = 'matthewjoelsperry@gmail.com';
-  const linkedinUrl = 'https://www.linkedin.com/in/matthew-sperry'; // Ensure https:// prefix
+  const linkedinUrl = 'https://www.linkedin.com/in/matthew-sperry'; 
 
   return (
     <section id="contact" className="py-16 bg-white dark:bg-gray-800 rounded-lg shadow-lg mb-12">
