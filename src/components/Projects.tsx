@@ -6,7 +6,7 @@ const Projects: React.FC = () => {
       title: 'Space Launch Tracker (Website)',
       description: 'I am passionate about space technologies and wanted to create a project that tracks upcoming rocket launches. This project demonstrates capabilities in API usage, data aggregation, frontend presentation, and website deployment.',
       link: 'https://space-launch-tracker-c8wj.vercel.app/', 
-      tags: ['React', 'Data Visualization', 'API Integration', 'HTML', 'CSS', 'AI']
+      tags: ['React', 'Data Organization', 'Data Visualization', 'API Integration', 'HTML', 'CSS', 'AI']
     },
     {
       title: 'Sifty Decision App (Prototype)',
